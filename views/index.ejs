@@ -3,16 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home</title>
+		<title><%- locals.title -%></title>
 	</head>
 	<body>
-		<header>
-			<h1>Home Page</h1>
-			<p>This is the home page</p>
-			<ul>
-				<li><a href="/about">About</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</header>
+		<%- include("./partials/header")-%>
+		<main>
+			<p>This is the home page!</p>
+		</main>
 	</body>
 </html>

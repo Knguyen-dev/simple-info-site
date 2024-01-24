@@ -3,16 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About</title>
+		<title><%- locals.title -%></title>
 	</head>
 	<body>
-		<header>
-			<h1>About</h1>
-			<p>This is a simple website created with NodeJS and server-side code</p>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</header>
+		<%- include("./partials/header")-%>
+		<main>
+			<p>This is the about page. Learn about us!</p>
+		</main>
 	</body>
 </html>
