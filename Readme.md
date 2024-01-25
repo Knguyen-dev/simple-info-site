@@ -7,3 +7,5 @@
 - Github pages only supports static sites, but since we are using
   Node.js, it makes our site dynamic because we are including server-side
   or back-end logic. As a result we'll have to host on Netlify.
+
+- Live Preview: https://momentous-fate-hardware.glitch.me
